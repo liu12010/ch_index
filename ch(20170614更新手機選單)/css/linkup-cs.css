@@ -1,0 +1,821 @@
+.row {/*使用在個人健檢,團體健檢,健康促進的圖片按鈕(被2017-linkup-cs.css:1覆寫)*//*使用在健康速報區塊(被2017-linkup-cs.css:1覆寫)*//*使用在優惠方案&活動區塊(被2017-linkup-cs.css:1覆寫)*/
+	margin-right: -15px;
+	margin-left: -15px;
+	margin-top: 50px;
+}
+.ch-T1 {
+	font-size: 22px;
+	font-family: 新細明體, 微軟正黑體, sans-serif;
+}
+.ch-T-25 {/*使用在健康速報的字體與樣式*/
+	font-size: 25px;
+	font-family: 新細明體, 微軟正黑體, sans-serif;
+}
+.ch-T-30 {/*"加滿每日必備的健康&活力!"的字體樣式*/
+	font-size: 30px;
+	font-family: 新細明體, 微軟正黑體, sans-serif;
+}
+.ch-T2 {/*使用在個人健檢,團體健檢,健康促進的圖片按鈕下的文字*/
+	font-size: 20px;
+	line-height: 1.5em;
+	font-family: 新細明體, 微軟正黑體, sans-serif;
+}
+.ch-left-page-icon {
+	width: 20%;
+	/* [disabled]background-color: #C3484A; */
+	float: left;
+	margin-left: 10%;
+}
+.ch-right-page-icon {
+	width: 57%;
+	/* [disabled]background-color: #C3484A; */
+	float: left;
+	margin-left: 5%;
+	margin-right: 8%;
+}
+.ch-mag-box {
+	width: 85%;
+	/* [disabled]background-color: #C3484A; */
+	float: left;
+	margin-left: 5%;
+	margin-right: 10%;
+	margin-bottom: 50px;
+}
+.ch-mag-box-menu {
+	width: 90%;
+	/* [disabled]background-color: #C3484A; */
+	float: left;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 50px;
+	border-bottom: 1px solid #7BAD6F;
+	padding-bottom: 10px;
+}
+.ch-news-box-menu {
+	width: 90%;
+	/* [disabled]background-color: #C3484A; */
+	float: left;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 50px;
+	border-bottom-color: #7BAD6F;
+	/* [disabled]border-bottom-style: solid; */
+	/* [disabled]border-bottom-width: 1px; */
+	padding-bottom: 10px;
+	border-top: 1px solid #7BAD6F;
+	padding-top: 15px;
+}
+.ch-report-box-menu {
+	width: 90%;
+	/* [disabled]background-color: #C3484A; */
+	float: left;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 50px;
+	/* [disabled]border-bottom-color: #7BAD6F; */
+	/* [disabled]border-bottom-style: solid; */
+	/* [disabled]border-bottom-width: 1px; */
+	padding-bottom: 10px;
+	/* [disabled]border-top: 1px solid #7BAD6F; */
+	padding-top: 15px;
+}
+.ch-news-title-box-menu {
+	width: 90%;
+	/* [disabled]background-color: #C3484A; */
+	float: left;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 100px;
+	/* [disabled]border-bottom-color: #7BAD6F; */
+	/* [disabled]border-bottom-style: solid; */
+	/* [disabled]border-bottom-width: 1px; */
+	padding-bottom: 10px;
+	margin-top: 50px;
+}
+.ch-banner-box {/*使用在立即預約按鈕及其旁邊背景圖片*/
+	width: 100%;
+	/* [disabled]background-color: #C3484A; */
+	float: left;
+	margin-left: 0%;
+	margin-right: 0%;
+	margin-bottom: 0px;
+	/* [disabled]border-bottom-color: #7BAD6F; */
+	/* [disabled]border-bottom-style: solid; */
+	/* [disabled]border-bottom-width: 1px; */
+	/* [disabled]padding-bottom: 10px; */
+	margin-top: 20px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+}
+.ch-mag-title {
+	width: 90%;
+	/* [disabled]background-color: #C3484A; */
+	float: left;
+	margin-top: 10px;
+}
+.ch-mag-menu-box {
+	width: 80%;
+	/* [disabled]background-color: #C3484A; */
+	float: left;
+	margin-top: 10px;
+}
+.ch-news-menu-box {
+	width: 100%;
+	/* [disabled]background-color: #C3484A; */
+	float: left;
+	/* [disabled]margin-top: 10px; */
+	margin-bottom: 10px;
+}
+.ch-report-menu-box {
+	width: 100%;
+	/* [disabled]background-color: #C3484A; */
+	float: left;
+	/* [disabled]margin-top: 10px; */
+	margin-bottom: 10px;
+	border-bottom: 1px solid #7BAD6F;
+}
+.ch-news-title-menu-box {
+	width: 94%;
+	/* [disabled]background-color: #C3484A; */
+	float: left;
+	padding-left: 2%;
+	padding-top: 3%;
+	padding-right: 0%;
+	padding-bottom: 0%;
+	/* [disabled]border: 1px solid #7BAD6F; */
+	margin-right: 2%;
+}
+.ch-banner-box-left-contents {/*使用在立即預約按扭及上方區塊的文章樣式*/
+	width: 90%;
+	/* [disabled]background-color: #C3484A; */
+	float: left;
+	/* [disabled]padding-left: 4%; */
+	padding-top: 3%;
+	padding-right: 10%;
+	padding-bottom: 0%;
+	/* [disabled]border: 1px solid #7BAD6F; */
+	/* [disabled]margin-right: 2%; */
+	margin-bottom: 0%;
+}
+.ch-news-title {
+	width: 96%;
+	/* [disabled]background-color: #C3484A; */
+	float: left;
+	/* [disabled]margin-top: 10px; */
+	margin-bottom: 10px;
+	/* [disabled]border-left-color: #7BAD6F; */
+	/* [disabled]border-right-color: #7BAD6F; */
+	/* [disabled]border-bottom: 2px solid #7BAD6F; */
+	/* [disabled]border-top-color: #7BAD6F; */
+	/* [disabled]border-left-style: solid; */
+	/* [disabled]border-right-style: solid; */
+	/* [disabled]border-top-style: solid; */
+	/* [disabled]border-left-width: 1px; */
+	/* [disabled]border-right-width: 1px; */
+	/* [disabled]border-top-width: 1px; */
+	padding-left: 1%;
+	padding-top: 1%;
+	padding-right: 1%;
+	padding-bottom: 1%;
+	margin-right: 2%;
+}
+.ch-banner-box-left-title {/*使用在立即預約按鈕及其旁邊背景圖片*/
+	width: 97%;
+	/* [disabled]background-color: #C3484A; */
+	float: left;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	/* [disabled]border-left-color: #7BAD6F; */
+	/* [disabled]border-right-color: #7BAD6F; */
+	/* [disabled]border-bottom: 2px solid #7BAD6F; */
+	/* [disabled]border-top-color: #7BAD6F; */
+	/* [disabled]border-left-style: solid; */
+	/* [disabled]border-right-style: solid; */
+	/* [disabled]border-top-style: solid; */
+	/* [disabled]border-left-width: 1px; */
+	/* [disabled]border-right-width: 1px; */
+	/* [disabled]border-top-width: 1px; */
+	/* [disabled]padding-left: 1%; */
+	padding-top: 1%;
+	padding-right: 1%;
+	padding-bottom: 1%;
+	margin-right: 2%;
+}
+.ch-news-box {
+	width: 60%;
+	/* [disabled]background-color: #C3484A; */
+	float: left;
+	/* [disabled]margin-top: 10px; */
+	margin-left: 5%;
+}
+.ch-news-title-box {
+	width: 60%;
+	/* [disabled]background-color: #C3484A; */
+	float: left;
+	/* [disabled]margin-top: 10px; */
+}
+.ch-banner-box-left {/*使用在立即預約按鈕及其旁邊背景圖片*/
+	width: 38%;
+	/* [disabled]background-color: #C3484A; */
+	float: left;
+	/* [disabled]margin-top: 10px; */
+	margin-bottom: 0px;
+	margin-left: 2%;
+}
+.ch-mag-book-title {
+	width: 95%;
+	/* [disabled]background-color: #C3484A; */
+	float: left;
+	/* [disabled]margin-top: 10px; */
+	padding-left: 5%;
+}
+.ch-mag-icon {
+	width: 10%;
+	/* [disabled]background-color: #C3484A; */
+	float: left;
+}
+.ch-mag-menu-icon {
+	width: 20%;
+	/* [disabled]background-color: #C3484A; */
+	float: left;
+}
+.ch-news-menu-icon {
+	width: 35%;
+	/* [disabled]background-color: #C3484A; */
+	float: left;
+}
+.ch-news-title-menu-icon {
+	width: 40%;
+	/* [disabled]background-color: #C3484A; */
+	float: left;
+	margin-top: 50px;
+}
+.ch-banner-box-right {/*使用在立即預約按鈕的右邊的背景圖片*/
+	width: 55%;
+	/* [disabled]background-color: #C3484A; */
+	float: left;
+	/* [disabled]margin-top: 50px; */
+	margin-left: 5%;
+}
+.ch-mag-book {
+	width: 50%;
+	/* [disabled]background-color: #C3484A; */
+	float: left;
+}
+.ch-mag-content {
+	width: 90%;
+	/* [disabled]background-color: #C3484A; */
+	float: left;
+	margin-top: 10px;
+	margin-left: 10%;
+}
+.ch-Color-Orange-Dark {/*使用在個人健檢,團體健檢,健康促進的圖片按鈕下的文字*//*使用在健康速報的字體與樣式*/
+	color: #CB5833;
+}
+.ch-Color-Gray-01 {
+	color: #343434;
+}
+.ch-Color-Gray-02 {
+	color: #595959;
+}
+.ch-Color-Gray-03 {/*使用在個人健檢,團體健檢,健康促進的圖片按鈕*/
+	color: #848484;
+}
+.ch-Color-Blue-mid {
+	color: #2276BC;
+}
+.ch-Color-white {
+	color: #FFFFFF;
+}
+.ch-Color-Blue-dark {
+	color: #164B76;
+}
+.ch-Color-pink {
+	color: #D25D7C;
+}
+.ch-Color-ch-01 {
+	color: #157B77;
+}
+.ch-Color-Green-mid {/*"加滿每日必備的健康&活力!"的字體顏色*/
+	color: #7BAD6F;
+}
+.ch-Color-enterprise {
+	color: #336600;
+}
+.ch-Color-education {
+	color: #6FADA8;
+}
+.ch-Color-insurance {
+	color: #AD6FAC;
+}
+.ch-Color-promote {
+	color: #5E85BE;
+}
+.ch-Color-fitness {
+	color: #BE5E86;
+}
+.ch-T3 {/*使用在立即預約按扭及上方區塊的文章樣式*/
+	font-size: 16px;
+	line-height: 30px;
+	font-family: 新細明體, 微軟正黑體, sans-serif;
+	margin-bottom: 0px;
+}
+.ch-T4 {
+	font-size: 15px;
+	font-family: 新細明體, 微軟正黑體, sans-serif;
+}
+.ch-tables-box {
+	width: 96%;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.ch-table-title-01 {
+	background-color: #80A981;
+	color: #FFFFFF;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-family: 新細明體, 微軟正黑體, sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+	border-right-width: 0px;
+	border-bottom: 1px solid #80A981;
+	border-left-color: #80A981;
+}
+.ch-table-title-02 {
+	background-color: #F9FEF2;
+	color: #FFFFFF;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-family: 新細明體, 微軟正黑體, sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+	border-right-width: 0px;
+	border-bottom: 1px solid #80A981;
+	padding-right: 20px;
+}
+.ch-table-row-02 {
+	background-color: #EAEAEA;
+	color: #343434;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: 新細明體, 微軟正黑體, sans-serif;
+	font-size: 1em;
+	border-right: 1px solid #80A981;
+	border-left: 1px solid #80A981;
+	border-bottom: 1px solid #80A981;
+}
+.ch-table-row-03 {
+	background-color: #E1F6B2;
+	color: #343434;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: 新細明體, 微軟正黑體, sans-serif;
+	font-size: 1em;
+	border-right: 1px solid #80A981;
+	border-left: 1px solid #80A981;
+	border-bottom: 1px solid #80A981;
+}
+.ch-table-row-01 {
+	background-color: #FFFFFF;
+	color: #343434;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: 新細明體, 微軟正黑體, sans-serif;
+	font-size: 1em;
+	border: 1px solid #80A981;
+}
+.ch-margin-bottom{
+	margin-bottom: 35px;
+	width: 100%;
+  }
+.ch-single-service {
+	padding: 0 48px;
+	text-align: center;
+}
+.ch-single-service-image {
+	height: 150px;
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+.ch-list {
+	color: #212121;
+	font-family: 新細明體, 微軟正黑體, sans-serif;
+	list-style-type: square;
+	text-indent: -13px;
+	list-style-position: outside;
+	margin-left: 5%;
+}
+.ch-page-header{
+	padding-bottom: 2px;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #7BAD6F;
+	width: 100%;
+	margin-left: auto;
+	text-align: right;
+	font-size: 18px;
+	/* [disabled]background-color: #F60004; */
+}
+.ch-page-header-education{
+	padding-bottom: 2px;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #6FADA8;
+	width: 100%;
+	margin-left: auto;
+	text-align: right;
+	font-size: 18px;
+	/* [disabled]background-color: #F60004; */
+}
+.ch-page-header-insurance{
+	padding-bottom: 2px;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #AD6FAC;
+	width: 100%;
+	margin-left: auto;
+	text-align: right;
+	font-size: 18px;
+	/* [disabled]background-color: #F60004; */
+}
+.ch-page-header-promote{
+	padding-bottom: 2px;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #5E85BE;
+	width: 100%;
+	margin-left: auto;
+	text-align: right;
+	font-size: 18px;
+	/* [disabled]background-color: #F60004; */
+}
+.ch-page-header-fitness{
+	padding-bottom: 2px;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #BE5E86;
+	width: 100%;
+	margin-left: auto;
+	text-align: right;
+	font-size: 18px;
+	/* [disabled]background-color: #F60004; */
+}
+.ch-page-header-enterprise{
+	padding-bottom: 2px;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #B5B882;
+	width: 100%;
+	margin-left: auto;
+	text-align: right;
+	font-size: 18px;
+	/* [disabled]background-color: #F60004; */
+}
+.ch-mobile-menu-box {
+	width: 97%;
+	padding-right: 0%;
+	padding-left: 3%;
+	margin-right: auto;
+	margin-left: auto;
+	box-sizing: border-box;
+	margin-bottom: 50px;
+	float: left;
+	text-align: center;
+	display: none;
+	color: #FFFFFF;
+}
+.ch-mobile-menu {
+	width: 24%;
+	padding-right: 2%;
+	padding-left: 2%;
+	float: left;
+	font-size: 15px;
+	background-image: -webkit-linear-gradient(270deg,rgba(70,173,32,1.00) 0.90%,rgba(58,166,14,1.00) 40.68%,rgba(116,195,77,1.00) 99.48%);
+	background-image: -moz-linear-gradient(270deg,rgba(70,173,32,1.00) 0.90%,rgba(58,166,14,1.00) 40.68%,rgba(116,195,77,1.00) 99.48%);
+	background-image: -o-linear-gradient(270deg,rgba(70,173,32,1.00) 0.90%,rgba(58,166,14,1.00) 40.68%,rgba(116,195,77,1.00) 99.48%);
+	background-image: linear-gradient(180deg,rgba(70,173,32,1.00) 0.90%,rgba(58,166,14,1.00) 40.68%,rgba(116,195,77,1.00) 99.48%);
+	padding-top: 2%;
+	padding-bottom: 2%;
+	color: #FFFFFF;
+	margin-left: 2px;
+	background-color: #53C03D;
+	border: 1px solid #B6E2B2;
+	border-radius: 2px;
+}
+.ch-mobile-menu:hover {
+	background-image: -webkit-linear-gradient(270deg,rgba(0,61,123,1.00) 0%,rgba(48,155,231,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(0,61,123,1.00) 0%,rgba(48,155,231,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(0,61,123,1.00) 0%,rgba(48,155,231,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(0,61,123,1.00) 0%,rgba(48,155,231,1.00) 100%);
+	color: #FFFFFF;
+}
+.ch-banner-bg-01 {/*這邊用在立即預約按鈕及其旁邊背景圖片*/
+	width: 100%;
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(236,236,236,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(236,236,236,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(236,236,236,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(236,236,236,1.00) 100%);
+	border-bottom: 1px solid #7FBDBA;
+}
+.ch-banner-bg-02 {
+	width: 100%;
+	background-image: -webkit-linear-gradient(270deg,rgba(212,30,90,1.00) 5.01%,rgba(239,99,145,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(212,30,90,1.00) 5.01%,rgba(239,99,145,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(212,30,90,1.00) 5.01%,rgba(239,99,145,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(212,30,90,1.00) 5.01%,rgba(239,99,145,1.00) 100%);
+	border-bottom: 1px solid #7FBDBA;
+	float: left;
+}
+.ch-banner-bg-03 {
+	width: 100%;
+	background-image: -webkit-linear-gradient(270deg,rgba(129,0,2,1.00) 0%,rgba(235,0,3,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(129,0,2,1.00) 0%,rgba(235,0,3,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(129,0,2,1.00) 0%,rgba(235,0,3,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(129,0,2,1.00) 0%,rgba(235,0,3,1.00) 100%);
+	border-bottom: 1px solid #7FBDBA;
+	float: left;
+}
+.ch-banner-bg-04 {
+	width: 100%;
+	background-image: -webkit-linear-gradient(270deg,rgba(68,108,47,1.00) 0%,rgba(103,165,72,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(68,108,47,1.00) 0%,rgba(103,165,72,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(68,108,47,1.00) 0%,rgba(103,165,72,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(68,108,47,1.00) 0%,rgba(103,165,72,1.00) 100%);
+	border-bottom: 1px solid #7FBDBA;
+	float: left;
+}
+.ch-banner-bg-05 {
+	width: 100%;
+	background-image: -webkit-linear-gradient(270deg,rgba(84,49,107,1.00) 0%,rgba(129,75,163,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(84,49,107,1.00) 0%,rgba(129,75,163,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(84,49,107,1.00) 0%,rgba(129,75,163,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(84,49,107,1.00) 0%,rgba(129,75,163,1.00) 100%);
+	border-bottom: 1px solid #7FBDBA;
+	float: left;
+}
+.ch-banner-bg-06 {
+	width: 100%;
+	background-image: -webkit-linear-gradient(270deg,rgba(36,101,187,1.00) 0%,rgba(61,164,221,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(36,101,187,1.00) 0%,rgba(61,164,221,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(36,101,187,1.00) 0%,rgba(61,164,221,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(36,101,187,1.00) 0%,rgba(61,164,221,1.00) 100%);
+	border-bottom: 1px solid #7FBDBA;
+	float: left;
+}
+.ch-reply-title {
+	font-size: 22px;
+	color: #80C75B;
+	line-height: 40px;
+}
+.ch-reply-content {
+	font-size: 15px;
+	color: #C6C6C6;
+	line-height: 20px;
+}
+.ch-add {
+	font-size: 17px;
+	color: #303030;
+	line-height: 22px;
+	text-align: center;
+}
+.ch-licen {
+	font-size: 13px;
+	color: #303030;
+	line-height: 17px;
+	text-align: center;
+}
+.copyright-text{
+	margin-top: 70px;
+	width: 98%;
+	text-align: center;
+	float: left;
+	margin-left: 1%;
+	margin-right: 1%;
+	font-size: 15px;
+}
+.ch-add-box {
+	width: 94%;
+	/* [disabled]background-color: #6C4242; */
+	float: left;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+.ch-img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+.ch-post-thumb{/*使用在個人健檢,團體健檢,健康促進的圖片按鈕(被linkup-cs.css:793覆寫)*/
+	margin: -1px -1px 0;
+	position: relative;
+	overflow: hidden;
+}
+.ch-post-thumb:hover{
+	margin: -1px -1px 0;
+	position: relative;
+	overflow: hidden;
+	opacity: 0.5;
+}
+.ch-single-blog{
+	padding-bottom: 30px;
+	width: 100%;
+	/* [disabled]background-color: #E62528; */
+}
+.ch-blog-box{
+	padding-right: 15px;
+	width: 50%;
+	float: left;
+	position: relative;
+	min-height: 1px;
+	padding-left: 15px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 22px;
+	color: #000;
+	/* [disabled]background-color: #F12124; */
+}
+.ch-page-left{
+	width: 25%;
+	padding-left: 15px;
+	padding-right: 15px;
+	float: left;
+}
+.ch-page-right{
+	width: 75%;
+	float: right;
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 22px;
+	color: #000;
+}
+.ch-post-title {
+	margin-top: 0;
+	font-family: 新細明體, 微軟正黑體, sans-serif;
+}
+.ch-post-content .ch-post-author{
+  margin-top: 0;
+  
+}
+
+.ch-post-content  .ch-post-author a{
+	font-weight: 300;
+	font-size: 15px;
+}
+a.ch-read-more{
+  color: #a5732a;
+  font-weight: 300;
+}
+
+a.ch-read-more:hover{
+  opacity: .8;
+}
+.ch-post-content{
+  padding: 20px 0;
+}
+.ch-row-reply {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width : 768px) {
+
+
+}
+
+/*md only*/
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/*sm only*/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* md */
+@media only screen and (max-width : 1200px) {
+
+}
+
+@media only screen and (max-width : 480px) {
+.ch-blog-box {
+	/* [disabled]padding-right: 35px; */
+	width: 100%;
+	float: left;
+	position: relative;
+	min-height: 1px;
+	/* [disabled]padding-left: 15px; */
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 22px;
+	color: #000;
+}
+.ch-mag-book {
+	width: 100%;
+	/* [disabled]background-color: #C3484A; */
+	float: left;
+}
+.ch-mag-menu-icon {
+	width: 50%;
+	/* [disabled]background-color: #C3484A; */
+	float: left;
+}
+.ch-mag-menu-box {
+	width: 100%;
+	/* [disabled]background-color: #C3484A; */
+	float: left;
+	margin-top: 10px;
+}
+.ch-news-title-menu-icon {
+	width: 100%;
+	/* [disabled]background-color: #C3484A; */
+	float: left;
+	margin-top: 50px;
+}
+.ch-news-title-box {
+	width: 100%;
+	/* [disabled]background-color: #C3484A; */
+	float: left;
+	/* [disabled]margin-top: 10px; */
+}
+.ch-banner-box-left {
+	width: 100%;
+	/* [disabled]background-color: #C3484A; */
+	float: left;
+	/* [disabled]margin-top: 10px; */
+	margin-bottom: 0px;
+	margin-left: 0%;
+}
+.ch-banner-box-right {
+	width: 100%;
+	/* [disabled]background-color: #C3484A; */
+	float: left;
+	/* [disabled]margin-top: 50px; */
+	margin-left: 0%;
+	margin-right: 0%;
+}
+}
+.ch-post-thumb {/*使用在個人健檢,團體健檢,健康促進的圖片按鈕*/
+	margin: -1px -1px 0;
+	position: relative;
+	overflow: hidden;
+}
+
+@media (max-width:767px){
+.ch-page-left {
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+	float: left;
+}
+.ch-page-right {
+	width: 100%;
+	float: right;
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 22px;
+	color: #000;
+}
+}

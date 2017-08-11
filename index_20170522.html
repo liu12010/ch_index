@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>CH</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet"> 
+    <link href="css/lightbox.css" rel="stylesheet"> 
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+	    <script src="js/html5shiv.js"></script>
+	    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    <link href="css/linkup-cs.css" rel="stylesheet" type="text/css">
+    <link href="css/2017-linkup-cs.css" rel="stylesheet" type="text/css">
+</head><!--/head-->
+
+<body>
+<header id="header">
+<!-- header=main.css:171,
+bootstrap.min.css:13 -->
+  <div class="navbar navbar-inverse" role="banner">
+  <!--navbar=main.css:240,
+  bootstrap.min.css:3478(margin-bottom和border被main.css覆寫),
+  bootstrap.min.css:3486;
+  navbar-inverse=bootstrap.min.css:3880(全部被main.css覆寫) -->
+    <div class="container">
+    <!-- container=main.css:179,
+    bootstrap.min.css:1429,
+    bootstrap.min.css:1421,
+    bootstrap.min.css:1019 -->
+      <div class="navbar-header">
+      <!-- navbar-header=bootstrap.min.css:3545,
+       bootstrap.min.css:3539(全部被3545覆寫,本區塊有多個class使用),
+       bootstrap.min.css:3492,
+       bootstrap.min.css:1019(-webkit-box-sizing被box-sizing覆寫) -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
+        <!--*手機板選單按鈕*
+        navbar-toggle=responsive.css:246,
+        responsive.css:235,
+        main.css:246(被responsive.css:235覆寫),
+        bootstrap.min.css:3912(被responsive.css:246覆寫),
+        bootstrap.min.css:3909(被responsive.css:235覆寫)
+        bootstrap.min.css:3600 -->
+           <span class="sr-only">Toggle navigation</span>
+           <!-- sr-only=bootstrap.min.css:1094 -->
+           <span class="icon-bar"></span>
+           <!-- icon-bar=responsive.css:250,
+            responsive.css:242(被responsive.css:250覆寫),
+            bootstrap.min.css:3915(被responsive.css:242覆寫),
+            bootstrap.min.css:3615 -->
+           <span class="icon-bar"></span>
+            <!-- icon-bar=responsive.css:250,
+            responsive.css:242(被responsive.css:250覆寫),
+            bootstrap.min.css:3915(被responsive.css:242覆寫),
+            bootstrap.min.css:3621,
+            bootstrap.min.css:3615 -->
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <!-- icon-bar=responsive.css:250,
+            responsive.css:242(被responsive.css:250覆寫),
+            bootstrap.min.css:3915(被responsive.css:242覆寫),
+            bootstrap.min.css:3621,
+            bootstrap.min.css:3615 -->
+           </button>
+        <a class="navbar-brand" href="index.aspx">
+        <!-- navbar-brand=main.css:250,
+         bootstrap.min.css:3884,
+         bootstrap.min.css:3581(padding被main.css:250覆寫),
+         a=main.css:44(webkit-transition被transition覆寫),
+         main.css:28(color被bootstrap.min.css:3884覆寫),
+         bootstrap.min.css:1045(color被main.css:28覆寫),
+         bootstrap.min.css:27 -->
+          <h1><img src="ch-images/iCare2_Dynamic.gif" alt="logo"></h1>
+        </a></div>
+        <!--  以下為網頁板的最上面下拉式選單    -->
+      <div class="collapse navbar-collapse overflow-fix">
+      <!-- navbar-collapse=bootstrap.min.css:3918,
+      bootstrap.min.css:3545,
+      bootstrap.min.css:3539(全部被bootstrap.min.css:3545覆寫),
+      bootstrap.min.css:3516,
+      bootstrap.min.css:3510(webkit-box-shadow被box-shadow覆寫),
+      bootstrap.min.css:3496(overflow-x被bootstrap.min.css:3516覆寫,
+                             border-top和box-shadow被bootstrap.min.css:3510覆寫),
+      collapse=bootstrap.min.css:2885(被bootstrap.min.css:3516覆寫)
+      -->
+        <ul class="nav navbar-nav navbar-right">
+        <!-- navbar-right=bootstrap.min.css:3794;
+         navbar-nav=bootstrap.min.css:3662(float被bootstrap.min.css:3794覆寫),
+         bootstrap.min.css:3630(被bootstrap.min.css:3662覆寫);
+         nav=bootstrap.min.css:3298(margin-bottom被bootstrap.min.css:3630覆寫);
+         ul=main.css:52(被bootstrap.min.css:3298覆寫),
+         bootstrap.min.css:1277(margin-bottom被bootstrap.min.css:3298覆寫,
+                                margin-top被3630覆寫)
+         -->
+          <li class="dropdown">
+          <!-- li=responsive.css:76,
+          bootstrap.min.css:3666,
+          bootstrap.min.css:2921(被bootstrap.min.css:3303覆寫);
+          dropdown=bootstrap.min.css:3303
+           -->
+          <a href="#">
+          <!--這個a標籤主要定義了整個首頁最上方選單按扭的排版與樣式  -->
+          <!-- a=responsive.css:80,
+           main.css:267(padding被responsive.css:80覆寫),
+           main.css:44(webkit-transition被transition覆寫),
+           main.css:28(color被main.css:267覆寫),
+           bootstrap.min.css:3894(color被main.css:267覆寫),
+           bootstrap.min.css:3669(全部被main.css:267覆寫),
+           bootstrap.min.css:3633(padding-top,padding-bottom被bootstrap.min.css:3669覆寫),
+           bootstrap.min.css:3307(padding被main.css:267覆寫),
+           bootstrap.min.css:1045(color被main.css:267覆寫),
+           bootstrap.min.css:27
+           -->
+          <i class="fa fa-caret-down" value="1">&nbsp;健康風雲榜</i></a>
+          <!-- fa=font-awesome.min.css:4 -->
+            <ul role="menu" class="sub-menu" >
+            <!-- 這邊定義下拉式選單的樣式 -->
+            <!-- sub-menu=responsive.css:8,
+            main.css:291(display和padding被responsive.css:8覆寫);
+            ul=bootstrap.min.css:1281(被main.css:291覆寫),
+            main.css:52(被main.css:291覆寫),
+            bootstrap.min.css:1277(全部被main.css:291覆寫) -->
+              <li><a href="index.aspx?sv=ch_personal&chapter=chpersonal">+ 腳勤排行榜</a></li>
+              <!-- li=responsive.css:76;
+              a=responsive.css:21,
+              main.css:298,
+              responsive.css:80(被main.css:298覆寫),
+              main.css:267(除了font-weight其他都被main.css:298覆寫),
+               main.css:44(webkit-transition被transition覆寫),
+               main.css:28(被main.css:298覆寫),
+               bootstrap.min.css:1045(color被main.css:298覆寫),
+               bootstrap.min.css:27   -->
+               <!--       以下各子選項按鈕皆同上       -->
+              <li><a href="index.aspx?sv=ch_enterprise&chapter=chenterprise">+ 體重控制榜</a></li>
+              <li><a href="index.aspx?sv=ch_education&chapter=cheducation">+ 健康生活榜</a></li>
+              <li><a href="index.aspx?sv=ch_insurance&chapter=chinsurance">+ 加油打氣室</a></li>
+            </ul>
+          </li>
+          <li class="dropdown" ><a href="#" ><i class="fa fa-caret-down" value="1">&nbsp;健走活動</i></a>
+            <ul role="menu" class="sub-menu" >
+              <li ><a href="index.aspx?sv=ch_promote&chapter=IA0000009" style="text-transform:none">+ i-Care</a></li>
+              <li><a href="index.aspx?sv=ch_fitness&chapter=AC0000001">+ 運動強度分析</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><i class="fa fa-caret-down" value="1">&nbsp;體重管理</i></a>
+            <ul role="menu" class="sub-menu" >
+              <li><a href="index.aspx?sv=ch_news&chapter=HFA000012">+ 身體組成紀錄</a></li>
+              <li><a href="index.aspx?sv=ch_events&chapter=IA0000016">+ 體重變化評估</a></li>
+              <li><a href="">+ 體脂率變化評估</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><i class="fa fa-caret-down" value="1">&nbsp;健康管理</i></a>
+            <ul role="menu" class="sub-menu" >
+              <li><a href="https://service.ch.com.tw/group_check/Online_Reg.aspx?tp=sh" target="_blank">+ 健康生活習慣</a></li>
+              <li><a href="https://service.ch.com.tw/group_check/Online_Reg.aspx?tp=group" target="_blank">+ 血壓評估</a></li>
+              <li><a href="https://service.ch.com.tw/insurance/online_reg.aspx" target="_blank">+ 血糖評估</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><i class="fa fa-caret-down" value="1">&nbsp;健康職場</i></a>
+            <ul role="menu" class="sub-menu" >
+              <li><a href="https://service.ch.com.tw/group_check/login_ch.aspx" target="_blank">+ 生活習慣評估</a></li>
+              <li><a href="https://service.ch.com.tw/group_check/login_sh.aspx" target="_blank">+ 過勞風險評估</a></li>
+              <li><a href="http://www.ch.com.tw/index.aspx?sv=ch_enterprise&chapter=EAA000001">+人因性危害評估</a></li>
+            </ul>
+          </li>
+        </li></ul>
+      </div>
+    </div>
+  </div>
+</header>
+<!--       以上為網頁板最上方下拉式選單              -->
+
+<!-- 以下部份沒有被顯示在手機板頁面上(被設為不顯示) -->
+<div class="ch-mobile-menu-box">
+<div class="ch-mobile-menu"><a href="ch_news.html" class="ch-Color-white">最新消息</a></div>
+<div class="ch-mobile-menu"><a href="ch_personal.html" class="ch-Color-white">健檢服務</a></div>
+<div class="ch-mobile-menu"><a href="ch_report.html" class="ch-Color-white">報告查詢</a></div>
+<div class="ch-mobile-menu"><a href="ch_contact.html" class="ch-Color-white">客服中心</a></div>
+</div>
+<!-- 以上部份沒有被顯示在手機板頁面上(被設為不顯示) -->
+
+<!--/#header--><!--         以下為立即預約按鈕及旁邊背景圖片           -->
+<div class="ch-banner-bg-01">
+<!-- ch-banner-bg-01=linkup-cs.css:528 -->
+  <div class="container">
+  <!-- container=bootstrap.min.css:1429,  
+       bootstrap.min.css:1421-->
+    <div class="ch-banner-box">
+    <!-- ch-banner-box=linkup-cs.css:95 -->
+      <div class="ch-banner-box-left">
+      <!-- ch-banner-box-left=linkup-cs.css:218 -->
+        <div class="ch-banner-box-left-title">
+        <!-- ch-banner-box-left-title=linkup-cs.css:183 -->
+          <span class="ch-T-30">
+          <!-- ch-T-30=linkup-cs.css:14 -->
+           <span class="ch-Color-Green-mid">加滿每日必備的健康&amp;活力!</span>
+           <!-- ch-Color-Green-mid=linkup-cs.css:300 -->
+          </span>
+        </div>
+        <div class="ch-banner-box-left-contents">
+        <!-- ch-banner-box-left-contents=linkup-cs.css:149 -->
+          <p class="ch-T3">啟新診所提供『新時代健康檢查』與『全方位健康促進』的專業服務。能依照您個人需求，打造專屬及全方位的健康管理。 現在就請立即預約您的健康人生吧!<br>
+            <br>
+          </p>
+          <!-- ch-T3=linkup-cs.css318;
+               p=bootstrap.min.css:1160(font-size跟line-height被linkup-cs.css318覆寫) -->
+          <p class="ch-T3"><a href="ch_online.html" target="_blank">
+            <button type="button" class="btn btn-success">立即預約</button>
+            <!-- btn-success=bootstrap.min.css:2742;
+                 btn=bootstrap.min.css:2656(-webkit-user-select被user-select覆寫),
+                 bootstrap.min.css:1040(font-size跟line-height被btn=bootstrap.min.css:2656覆寫);
+                 button=bootstrap.min.css:100(cursor被bootstrap.min.css:2656覆寫),
+                 bootstrap.min.css:97,
+                 bootstrap.min.css:94,
+                 bootstrap.min.css:87(color被bootstrap.min.css:2742覆寫)-->
+          </a></p>
+          <p class="ch-T3">&nbsp;</p>
+          <!--立即預約按紐下面的空白-->
+        </div>
+      </div>
+      <div class="ch-banner-box-right">
+      <!-- ch-banner-box-right=linkup-cs.css:254 -->
+      <img src="ch-images/unit-banner/index-banner.png" alt="" class="img-responsive"/>
+      </div>
+      <p>&nbsp;</p>
+    </div>
+  </div>
+</div>
+<!--         以上為立即預約按鈕及旁邊背景圖片           -->
+<!--/#home-slider--><!--         以下為個人健檢,團體健檢,健康促進的圖片按鈕           -->
+    <section id="services">
+    <!-- services=bootstrap.min.css:13 -->
+        <div class="container">
+        <!-- container=bootstrap.min.css:1429,
+             bootstrap.min.css:1421 -->
+            <div class="row">
+            <!-- row=2017-linkup-cs.css:1,
+                 linkup-cs.css:1(被2017-linkup-cs.css:1覆寫),
+                 bootstrap.min.css:1451(被2017-linkup-cs.css:1覆寫)-->
+              <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+              <!-- padding=main.css:117;
+                   fadeIn=animate.min.css:12;
+                   col-sm-4=bootstrap.min.css:1654,
+                   bootstrap.min.css:1627,
+                   bootstrap.min.css:1463(被main.css:118覆寫);
+                   text-center=bootstrap.min.css:1190 -->
+                <div class="single-blog two-column">
+                <!-- single-blog=main.css:1657 -->
+                  <div class="ch-post-thumb"> 
+                  <!-- ch-post-thumb=linkup-cs.css:793,
+                  linkup-cs.css:624(被linkup-cs.css:793覆寫)
+                  main.css:1486(被linkup-cs.css:793覆寫) -->
+                  <a href="ch_personal.html"><img src="ch-images/01.jpg" class="img-responsive" alt=""></a><!--個人健檢圖片-->
+                    <div class="post-overlay"> <span class="uppercase"></span></div><!--此行看不出差別 意義不明-->
+                  </div>
+                </div>
+                <div class="single-service">
+                <!-- main.css:678 -->
+                  <h2 class="ch-Color-Gray-03">個人健檢</h2>
+                  <!-- single-service h2=main.css:691;
+                       ch-Color-Gray-03=linkup-cs.css:282 -->
+                  <p class="ch-T2">
+                  <!-- p=main.css696,
+                       bootstrap.min.css:1160(被linkup-cs.css:18覆寫);
+                       ch-T2=linkup-cs.css:18-->
+                  <span class="ch-Color-Orange-Dark">打造健康New Style<br>
+                  讓您生活更精采</span></p>
+                  <!-- ch-Color-Orange-Dark=linkup-cs.css:273 -->
+                </div>
+              </div><!--以下另外兩個按鈕設定皆同"個人健檢"-->
+              <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="single-blog two-column">
+                      <div class="ch-post-thumb"> <a href="ch_enterprise.html"><img src="ch-images/02.jpg" class="img-responsive" alt=""></a>
+                        <div class="post-overlay"> <span class="uppercase"></span> </div><!--此行看不出差別 意義不明-->
+                      </div>
+                    </div>
+                    <div class="single-service">
+                      <h2 class="ch-Color-Gray-03">團體健檢</h2>
+                        <p class="ch-T2"><span class="ch-Color-Blue-mid">企業/學校/保險等機關<br>
+                        專業健檢服務</span></p>
+                  </div>
+              </div>
+              <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+                <div class="single-blog two-column">
+                  <div class="ch-post-thumb"> <a href="ch_promote.html"><img src="ch-images/03.jpg" class="img-responsive" alt=""></a>
+                    <div class="post-overlay"> <span class="uppercase"></span></div><!--此行看不出差別 意義不明-->
+                  </div>
+                </div>
+                <div class="single-service">
+                  <h2 class="ch-Color-Gray-03">健康促進</h2>
+                  <p class="ch-T2"><span class="ch-Color-Green-mid">創新概念<br>
+                  全民共享健康樂</span></p>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+    <!--以上另外兩個按鈕設定皆同"個人健檢"--><!--以上為個人健檢,團體健檢,健康促進的圖片按鈕-->
+    <!--/#services-->
+    <section id="clients2">
+    <!-- section=bootstrap.min.css:13 -->
+      <div class="container">
+      <!-- container=bootstrap.min.css:1429,
+           bootstrap.min.css:1421 -->
+        <div class="row">
+        <!-- row=2017-linkup-cs.css:1,
+             linkup-cs.css:1(被2017-linkup-cs.css:1覆寫),
+             bootstrap.min.css:1451(被2017-linkup-cs.css:1覆寫)-->
+          <div class="col-sm-12">
+          <!-- col-sm-12=bootstrap.min.css:1630,
+               bootstrap.min.css:1627,
+               bootstrap.min.css:1463 -->
+            <div class="clients text-center" data-wow-duration="500ms" data-wow-delay="300ms">
+            <!-- clients=main.css:738;
+                 text-center=bootstrap.min.css:1190 -->
+              <p><img src="ch-images/ch-icon/ch-news.png" class="img-responsive" alt=""><br>
+              </p>
+              <!--健康速報上面的圖片-->
+              <h1 class="title">健康速報<br>
+              <!-- title=main.css:715;
+                   h1=responsive.css:72,
+                   main.css:61(被main.css:715覆寫),
+                   main.css:56(font-weight被main.css:715覆寫),
+                   bootstrap.min.css:1141(responsive.css:72覆寫),
+                   bootstrap.min.css:1126(font-family被main.css:56覆寫),
+                   bootstrap.min.css:1115(除line-height以外都被覆寫),
+                   bootstrap.min.css:42(font-size被responsive.css:72覆寫) -->
+                <a href="ch_events_01.html"><span class="ch-T-25"><span class="ch-Color-Orange-Dark">恭賀啟新診所，榮獲2016健康促進標章</span></span></a> <br>
+                <!-- ch-Color-Orange-Dark:linkup-cs.css:273;
+                     ch-T-25=linkup-cs.css:10 -->
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/#action-->
+      <!--                          以下為優惠方案&活動區塊                             -->
+    <section id="features">
+    <!-- bootstrap.min.css:13 -->
+      <div class="container">
+      <!-- container=bootstrap.min.css:1429,
+           bootstrap.min.css:1421 -->
+        <div class="row">
+        <!-- row=2017-linkup-cs.css:1,
+             linkup-cs.css:1(被2017-linkup-cs.css:1覆寫),
+             bootstrap.min.css:1451(被2017-linkup-cs.css:1覆寫)-->
+          <div class="timeline-blog overflow padding-top">
+          <!-- padding-top=main.css:125;
+               overflow=main.css:75 -->
+            <div class="timeline-date text-center"> 
+            <a href="ch_news.html" class="btn btn-common uppercase">優惠方案&amp;活動</a></div>
+            <!-- btn-common=main.css:1574,
+                 main.css:83(除border跟font-family外都被main.css:1574覆寫);
+                 uppercase=main.css:79;
+                 btn=bootstrap.min.css:2656
+                 (padding,font-size,font-weight,border-radius被main.css:1574覆寫,border被main.css:83覆寫) -->
+            <div class="timeline-divider overflow padding-bottom">
+            <!-- timeline-divider=main.css:1549;
+                 padding-bottom=main.css:121;
+                 overflow=main.css:75 -->
+                 <!--以下為優惠方案區塊的各別元件(圖片.文章.詳閱連結..)-->
+              <div class="col-sm-6 padding-right arrow-right wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <!-- arrow-right=main.css1582;
+                   padding-right=main.css129;
+                   fadeInLeft=animate.min.css:12 -->
+                <div class="single-blog timeline">
+                <!-- timeline=main.css:1463;
+                     single-blog=main.css1657  -->
+                  <div class="single-blog-wrapper">
+                  <!-- single-blog-wrapper=main.css:1818 -->
+                    <div class="post-thumb">
+                    <!-- post-thumb=main.css:1475 -->
+                     <img src="ch-images/04.jpg" class="img-responsive" alt="">
+                    <!-- img=main.css:1494,
+                         bootstrap.min.css:1061,
+                         bootstrap.min.css:65;
+                         img-responsive=bootstrap.min.css:1064 -->
+                    </div>
+                  </div>
+                  <div class="post-content overflow">
+                  <!-- post-content=main.css:1471,
+                       main.css:1570;
+                       overflow=main.css:75 -->
+                    <h2 class="post-title bold">智慧APP/健康管理So easy</h2>
+                    <!-- post-title=main.css:1610;
+                         h2=main.css:65(font-family被main.css:1610覆寫),
+                         main.css:56(font-family被main.css:1610覆寫),
+                         bootstrap.min.css:1144(font-size被main.css:65覆寫,font-family被main.css:1610覆寫),
+                         bootstrap.min.css:1126(font-family跟margin-top被main.css:1610覆寫)
+                         bootstrap.min.css:1115(font-family被main.css:1610覆寫,font-weight被main.css:57覆寫,color被main.css:65覆寫) -->
+                    <h3 class="post-author">
+                     <!-- post-author=main.css:1625;
+                          h3=main.css:71,
+                          main.css:57,
+                          bootstrap.min.css:1148(被main.css:71覆寫),
+                          bootstrap.min.css:1126(margin-top被main.css:1625覆寫,font-family被main.css:57覆寫),
+                          bootstrap.min.css:1115(font-family跟font-weight被main.css:57覆寫) -->
+                    <a href="#">CH News</a>
+                     <!-- a=main.css:1630,
+                            main.css:45(除transition外都無效),
+                            main.css:28,
+                            bootstrap.min.css:1045(color被main.css:28覆寫),
+                            bootstrap.min.css:27 -->
+                    </h3>
+                   
+                    <p>健康體重管理APP是由衛生福利部國民健康署所發行之軟體，提供國人健康體重管理相關資訊及小工具。功能簡介：電子書、BMI及每日所需熱量計算、健康食譜、飲食及運動紀錄。</p>
+                    <!-- p=bootstrap.min.css:1160 -->
+                    <a href="#" class="read-more">詳 閱 》</a>
+                    <!-- a=main.css:1635 -->
+                    <div class="post-bottom overflow">
+                    <!-- post-bottom=main.css:1661,
+                         main.css:1644(padding-top被main.css:1661覆寫);
+                         overflow=main.css:75 -->
+                     <span class="post-date pull-left">April 11, 2016</span></div>
+                     <!-- pull-left=font-awesome.min.css:4(被bootstrap.min.css:5482覆寫),
+                          bootstrap.min.css:5482 -->
+                  </div>
+                </div>
+              </div>
+              <!--                            以下各活動元件皆與上相同                              -->
+              <div class="col-sm-6 padding-left padding-top arrow-left wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">
+                <div class="single-blog timeline">
+                  <div class="single-blog-wrapper">
+                    <div class="post-thumb"> <img src="ch-images/05.jpg" class="img-responsive" alt="">
+                    </div>
+                  </div>
+                  <div class="post-content overflow">
+                    <h2 class="post-title bold">健康自由配！讓您輕鬆選~</h2>
+                    <h3 class="post-author"><a href="#">即日起至105年6月底止</a></h3>
+                    <p>您是否厭了倦制式化的健檢方案，當這些都不是您想要的項目時？該如何尋求協助呢？在啟新，您能依照不同需求，擁有更多選擇! 任選3套，活動價:3,000元</p>
+                    <a href="#" class="read-more">詳 閱 》</a>
+                    <div class="post-bottom overflow"> <span class="post-date pull-left">February 11, 2014</span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 padding-right arrow-right wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
+                <div class="single-blog timeline">
+                  <div class="single-blog-wrapper">
+                    <div class="post-thumb">
+                      <iframe src="https://www.youtube.com/embed/aKXO2DUsLXc"></iframe>
+                    </div>
+                  </div>
+                  <div class="post-content overflow">
+                    <h2 class="post-title bold"><a href="#">體驗全新HM-200 帶來的便利</a></h2>
+                    <h3 class="post-author"><a href="#">HM-200全功能操作影片介紹</a></h3>
+                    <p>i-care健康促進服務雲、提供一般民眾、個人會員、團體會員，便利的網路平台，執行個人、家庭、企業、職場的健康促進管理。服務內容包含，健走活動、體重管理活動等</p>
+                    <a href="#" class="read-more">詳 閱 》</a>
+                    <div class="post-bottom overflow"> <span class="post-date pull-left">April 11, 2016</span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 padding-left padding-top arrow-left wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">
+                <div class="single-blog timeline">
+                  <div class="single-blog-wrapper">
+                    <div class="post-thumb"> <img src="ch-images/06.jpg" class="img-responsive" alt="">
+                    </div>
+                  </div>
+                  <div class="post-content overflow">
+                    <h2 class="post-title bold">健康促進活動專區</h2>
+                    <h3 class="post-author"><a href="#">健康吃、快樂動、天天量體重</a></h3>
+                    <p>「i-Care健康促進服務網」於104年度配合「臺北市政府衛生局」辦理職場健康促進服務計畫、體重控制班、健康小學堂衛生保健巡迴列車課程，協助「中山區健康務中心」辦理職場健康體重管理計劃，並輔導健康職場自主認證，希望藉由健康管理策略培養員工「健康吃、快樂動、天天量體重」的良好生活型態。</p>
+                    <a href="#" class="read-more">詳 閱 》</a>
+                    <div class="post-bottom overflow"> <span class="post-date pull-left">February 11, 2014</span></div>
+                  </div>
+                </div>
+              </div>
+              <!--以上為優惠方案區塊的各別元件(圖片.文章.詳閱連結..)-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!--/#features-->
+
+     <!--                          以上為優惠方案&活動區塊                             -->
+    <section id="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="clients text-center" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <p><img src="ch-images/doctor.png" class="img-responsive" alt=""></p>
+                        <h1 class="title">力挺你的健康人生</h1>
+                        <p>啟新以專業經驗的醫師群，並採用最先進的儀器，提供您優質的健檢服務，讓您獲得更精確的診斷。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+    <!--/#clients-->
+    <section id="subscribe">
+      <div class="container">
+        <div class="row-reply"> 
+          <p><a href="ch_contact.html" class="ch-reply-title">快速回覆，讓你健康，讓你問！</a> <span class="ch-reply-content"><br>
+            我們重視您提供的任何問題與建議，歡迎利用線上諮詢信箱，寫下您的訊息與聯繫方式，我們將由專人立即回覆您.</span></p>
+          <p>&nbsp;</p>
+        </div>
+      </div>
+    </section>
+    <section id="subscribe3"></section>
+    <section id="subscribe2">
+      <div class="container">
+        <div class="ch-row-reply">
+          <div class="ch-media"> <a href="https://www.facebook.com/CH.HealthService" target="_blank"><img src="ch-images/ch-FB-LINE/facebook_64.jpg" alt="" width="64" height="64"></a> &nbsp;&nbsp;&nbsp;<img src="ch-images/ch-FB-LINE/CH_LINE_64.jpg" alt="" width="64" height="64"></div>
+          <div class="ch-media">歡迎加入 啟新好友</div>
+        </div>
+      </div>
+</section>
+    <footer id="footer">
+        <div class="container">
+            <div class="container"></div>
+            <div class="row">
+              <div class="ch-add-box">
+                <p class="ch-add"><span class="ch-Color-ch-01"><span class="ch-T2">啟 新 診 所 </span><br>
+                — 專業健康檢查機構 / 專業醫學健康促進中心 —<br>
+                </span><span class="ch-T3">台北市建國北路三段42號5樓 (02)2507-0723 </span></p>
+                <p class="ch-add"><span class="ch-licen">網站管理:啟新診所資訊部 隱私權政策 We recommend ABCpdf for converting HTML documents to PDF<br>
+                <span class="ch-Color-Blue-mid">※本站資訊僅供參考，若有身體不適的情況發生,仍應尋求專科醫師診治</span></span><span class="ch-Color-Blue-mid"></span> </p>
+              </div>
+              <p class="ch-add">&nbsp;</p>
+            </div>
+        </div>
+    </footer>
+    <!--/#footer-->
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/lightbox.min.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>   
+</body>
+</html>
