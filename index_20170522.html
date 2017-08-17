@@ -13,6 +13,7 @@
 	<link href="css/main.css" rel="stylesheet">
 	<link href="css/responsive.css" rel="stylesheet">
 
+
     <!--[if lt IE 9]>
 	    <script src="js/html5shiv.js"></script>
 	    <script src="js/respond.min.js"></script>
@@ -24,6 +25,7 @@
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
     <link href="css/linkup-cs.css" rel="stylesheet" type="text/css">
     <link href="css/2017-linkup-cs.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head><!--/head-->
 
 <body>
@@ -31,118 +33,27 @@
 <!-- header=main.css:171,
 bootstrap.min.css:13 -->
   <div class="navbar navbar-inverse" role="banner">
-  <!--navbar=main.css:240,
-  bootstrap.min.css:3478(margin-bottom和border被main.css覆寫),
-  bootstrap.min.css:3486;
-  navbar-inverse=bootstrap.min.css:3880(全部被main.css覆寫) -->
     <div class="container">
-    <!-- container=main.css:179,
-    bootstrap.min.css:1429,
-    bootstrap.min.css:1421,
-    bootstrap.min.css:1019 -->
       <div class="navbar-header">
-      <!-- navbar-header=bootstrap.min.css:3545,
-       bootstrap.min.css:3539(全部被3545覆寫,本區塊有多個class使用),
-       bootstrap.min.css:3492,
-       bootstrap.min.css:1019(-webkit-box-sizing被box-sizing覆寫) -->
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
-        <!--*手機板選單按鈕*
-        navbar-toggle=responsive.css:246,
-        responsive.css:235,
-        main.css:246(被responsive.css:235覆寫),
-        bootstrap.min.css:3912(被responsive.css:246覆寫),
-        bootstrap.min.css:3909(被responsive.css:235覆寫)
-        bootstrap.min.css:3600 -->
+        <button type="button" class="navbar-toggle " onclick="w3_open()"> 
            <span class="sr-only">Toggle navigation</span>
-           <!-- sr-only=bootstrap.min.css:1094 -->
-           <span class="icon-bar"></span>
-           <!-- icon-bar=responsive.css:250,
-            responsive.css:242(被responsive.css:250覆寫),
-            bootstrap.min.css:3915(被responsive.css:242覆寫),
-            bootstrap.min.css:3615 -->
-           <span class="icon-bar"></span>
-            <!-- icon-bar=responsive.css:250,
-            responsive.css:242(被responsive.css:250覆寫),
-            bootstrap.min.css:3915(被responsive.css:242覆寫),
-            bootstrap.min.css:3621,
-            bootstrap.min.css:3615 -->
            <span class="icon-bar"></span>
            <span class="icon-bar"></span>
-           <!-- icon-bar=responsive.css:250,
-            responsive.css:242(被responsive.css:250覆寫),
-            bootstrap.min.css:3915(被responsive.css:242覆寫),
-            bootstrap.min.css:3621,
-            bootstrap.min.css:3615 -->
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
            </button>
         <a class="navbar-brand" href="index.aspx">
-        <!-- navbar-brand=main.css:250,
-         bootstrap.min.css:3884,
-         bootstrap.min.css:3581(padding被main.css:250覆寫),
-         a=main.css:44(webkit-transition被transition覆寫),
-         main.css:28(color被bootstrap.min.css:3884覆寫),
-         bootstrap.min.css:1045(color被main.css:28覆寫),
-         bootstrap.min.css:27 -->
           <h1><img src="ch-images/iCare2_Dynamic.gif" alt="logo"></h1>
         </a></div>
         <!--  以下為網頁板的最上面下拉式選單    -->
       <div class="collapse navbar-collapse overflow-fix">
-      <!-- navbar-collapse=bootstrap.min.css:3918,
-      bootstrap.min.css:3545,
-      bootstrap.min.css:3539(全部被bootstrap.min.css:3545覆寫),
-      bootstrap.min.css:3516,
-      bootstrap.min.css:3510(webkit-box-shadow被box-shadow覆寫),
-      bootstrap.min.css:3496(overflow-x被bootstrap.min.css:3516覆寫,
-                             border-top和box-shadow被bootstrap.min.css:3510覆寫),
-      collapse=bootstrap.min.css:2885(被bootstrap.min.css:3516覆寫)
-      -->
         <ul class="nav navbar-nav navbar-right">
-        <!-- navbar-right=bootstrap.min.css:3794;
-         navbar-nav=bootstrap.min.css:3662(float被bootstrap.min.css:3794覆寫),
-         bootstrap.min.css:3630(被bootstrap.min.css:3662覆寫);
-         nav=bootstrap.min.css:3298(margin-bottom被bootstrap.min.css:3630覆寫);
-         ul=main.css:52(被bootstrap.min.css:3298覆寫),
-         bootstrap.min.css:1277(margin-bottom被bootstrap.min.css:3298覆寫,
-                                margin-top被3630覆寫)
-         -->
           <li class="dropdown">
-          <!-- li=responsive.css:76,
-          bootstrap.min.css:3666,
-          bootstrap.min.css:2921(被bootstrap.min.css:3303覆寫);
-          dropdown=bootstrap.min.css:3303
-           -->
           <a href="#">
-          <!--這個a標籤主要定義了整個首頁最上方選單按扭的排版與樣式  -->
-          <!-- a=responsive.css:80,
-           main.css:267(padding被responsive.css:80覆寫),
-           main.css:44(webkit-transition被transition覆寫),
-           main.css:28(color被main.css:267覆寫),
-           bootstrap.min.css:3894(color被main.css:267覆寫),
-           bootstrap.min.css:3669(全部被main.css:267覆寫),
-           bootstrap.min.css:3633(padding-top,padding-bottom被bootstrap.min.css:3669覆寫),
-           bootstrap.min.css:3307(padding被main.css:267覆寫),
-           bootstrap.min.css:1045(color被main.css:267覆寫),
-           bootstrap.min.css:27
-           -->
           <i class="fa fa-caret-down" value="1">&nbsp;健康風雲榜</i></a>
           <!-- fa=font-awesome.min.css:4 -->
             <ul role="menu" class="sub-menu" >
-            <!-- 這邊定義下拉式選單的樣式 -->
-            <!-- sub-menu=responsive.css:8,
-            main.css:291(display和padding被responsive.css:8覆寫);
-            ul=bootstrap.min.css:1281(被main.css:291覆寫),
-            main.css:52(被main.css:291覆寫),
-            bootstrap.min.css:1277(全部被main.css:291覆寫) -->
               <li><a href="index.aspx?sv=ch_personal&chapter=chpersonal">+ 腳勤排行榜</a></li>
-              <!-- li=responsive.css:76;
-              a=responsive.css:21,
-              main.css:298,
-              responsive.css:80(被main.css:298覆寫),
-              main.css:267(除了font-weight其他都被main.css:298覆寫),
-               main.css:44(webkit-transition被transition覆寫),
-               main.css:28(被main.css:298覆寫),
-               bootstrap.min.css:1045(color被main.css:298覆寫),
-               bootstrap.min.css:27   -->
-               <!--       以下各子選項按鈕皆同上       -->
               <li><a href="index.aspx?sv=ch_enterprise&chapter=chenterprise">+ 體重控制榜</a></li>
               <li><a href="index.aspx?sv=ch_education&chapter=cheducation">+ 健康生活榜</a></li>
               <li><a href="index.aspx?sv=ch_insurance&chapter=chinsurance">+ 加油打氣室</a></li>
@@ -181,7 +92,42 @@ bootstrap.min.css:13 -->
   </div>
 </header>
 <!--       以上為網頁板最上方下拉式選單              -->
-
+<div class="w3-sidebar w3-bar-block w3-dark-grey w3-animate-right w3-display-right" style="display:none" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large"
+  onclick="w3_close()">Close &times;</button>
+   <button class="w3-button w3-block w3-left-align" onclick="myAccFunc()">
+  健康風雲榜 <i class="fa fa-caret-down"></i>
+  </button>
+  <div id="demoAcc" class="w3-hide w3-white w3-card-4">
+    <a href="#" class="w3-bar-item w3-button">腳勤排行榜</a>
+    <a href="#" class="w3-bar-item w3-button">體重控制榜</a>
+    <a href="#" class="w3-bar-item w3-button">健康生活榜</a>
+    <a href="#" class="w3-bar-item w3-button">加油打氣室</a>
+  </div>
+   <button class="w3-button w3-block w3-left-align" onclick="myAccFunc1()">
+  健走活動 <i class="fa fa-caret-down"></i>
+  </button>
+  <div id="demoAcc1" class="w3-hide w3-white w3-card-4">
+    <a href="#" class="w3-bar-item w3-button">i-Care</a>
+    <a href="#" class="w3-bar-item w3-button">運動強度分析</a>
+  </div>
+   <button class="w3-button w3-block w3-left-align" onclick="myAccFunc2()">
+  體重管理 <i class="fa fa-caret-down"></i>
+  </button>
+  <div id="demoAcc2" class="w3-hide w3-white w3-card-4">
+    <a href="#" class="w3-bar-item w3-button">身體組成紀錄</a>
+    <a href="#" class="w3-bar-item w3-button">體重變化評估</a>
+    <a href="#" class="w3-bar-item w3-button">體脂率變化評估</a>
+  </div>
+   <button class="w3-button w3-block w3-left-align" onclick="myAccFunc3()">
+  健康管理 <i class="fa fa-caret-down"></i>
+  </button>
+  <div id="demoAcc3" class="w3-hide w3-white w3-card-4">
+    <a href="#" class="w3-bar-item w3-button">健康生活習慣</a>
+    <a href="#" class="w3-bar-item w3-button">血壓評估</a>
+    <a href="#" class="w3-bar-item w3-button">血糖評估</a>
+  </div>
+</div>
 <!-- 以下部份沒有被顯示在手機板頁面上(被設為不顯示) -->
 <div class="ch-mobile-menu-box">
 <div class="ch-mobile-menu"><a href="ch_news.html" class="ch-Color-white">最新消息</a></div>
@@ -539,6 +485,7 @@ bootstrap.min.css:13 -->
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/lightbox.min.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>   
+    <script type="text/javascript" src="js/main.js"></script>  
+
 </body>
 </html>
